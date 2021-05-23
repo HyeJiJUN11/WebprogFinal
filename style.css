@@ -1,0 +1,115 @@
+*{
+    /* line-height: 40px; */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+#navbar{
+    position: fixed;
+    /* margin-left: 10%; */
+    width: 1000px;
+    height: 50px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    border-left:solid 1px black;
+    border-right:solid 1px black;
+    border-bottom:solid 1px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#navbar_left{
+    position: absolute;
+    /* top: 50%; */
+    float: left;
+    overflow: hidden;
+    /* border: solid 1px black; */
+    margin-left: 30px;
+}
+
+#navbar_left div{
+    height: 50px;
+    float: left;
+    overflow: hidden;
+}
+
+#navbar_left div a{
+    /* margin-top: 10px; */
+    height: 50px;
+    overflow: hidden;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    float: left;
+}
+
+#navbar_right{
+    height: 50px;
+    top: 0;
+    position: relative;
+    float: right;
+    /* border: solid 1px black; */
+    overflow: hidden;
+    margin-right: 30px;
+}
+
+.manu{
+    height: 50px;
+    line-height: 45px;
+    float: left;
+    /* border: solid 1px black; */
+    margin-left: 50px;
+}
+
+.manu a{
+    top: 30%;
+    font-size: 20px;
+    
+    text-decoration: none;
+    color: black;
+    /* margin: 50%; */
+}
+
+.manu a:hover{
+    text-shadow: 2px 2px 2px gray;
+}
+
+.nav{
+    height: 100px;
+}
+
+h1{
+    padding-top: 80px;
+}
+
+h2{
+    padding-bottom: 40px
+}
+
+span{
+    font-weight:bold;
+    color:red;
+}
+
+p{padding: 40px 100px 10px 100px;}
+
+#footer{   
+    padding: 10px;
+    height: auto;
+    margin-top: 20px;
+}
+
+#footer .SNS{
+
+    margin-left: 30px;
+}
