@@ -1,39 +1,107 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <title>HYEJI JUN | personal webpage</title>
-        <link href="./style.css" rel="stylesheet" />
-    </head>
-    <body>
-        <div id="navbar">
-            <div id="navbar_left">
-                <div><a href="#">HYEJI&nbsp;JUN</a></div>
-            </div>
-            <div id="navbar_right">
-                <div class="manu"><a href="#">INTRO</a></div>
-                <div class="manu"><a href="#">LIKE</a></div>
-                <div class="manu"><a href="#">DREAM</a></div>
-            </div>
-        </div>
 
-        <div id="nav"></div>
+<head>
+    <title>HYEJI JUN | personal webpage</title>
+    <link href="./style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!-- navbar -->
+    <div id="navbar">
+        <div id="navbar_left">
+            <div><a href="#">HYEJI&nbsp;JUN</a></div>
+        </div>
+        <div id="navbar_right">
+            <div class="manu"><a href="#intro" id="introhref">INTRO</a></div>
+            <div class="manu"><a href="#like" id="likehref">LIKE</a></div>
+            <div class="manu"><a href="#dream" id="dreamhref">DREAM</a></div>
+        </div>
+    </div>
+    <div id="nav"></div>
+
+    <!-- intro -->
+    <div id="introdiv">
         <h1>HYEJI JUN</h1>
         <h2>Introduce Myself</h2>
-        <img src="./introRES.jpg" width="500px" alt="Intro Img">
-        <p>Hello! my name is HyeJi jun. I'm majar in computer sience in KangWon National Univeristy
-            in Korea. This is my intruduce page. If you want to see what I loved, please go to 
+        <img src="./intro.jpg" width="500px" alt="Intro Img">
+        <p>Hello! My name is HyeJi Jun. I am majoring in Computer Science at Kangwon National University
+            in Korea. This is my slef introduce page. If you want to see what I loved, please go to
             <span>LIKE</span>
-             section.
-            And if you want to know what I want to do, and What I wanna be, plase go to 
+            section.
+            And if you want to know what I want to do, and What I wanna be, plase go to
             <span>DREAM</span>
-             section.    
+            section.
         </p>
-        <p>Wanna enjoy my page. Thank you!</p>  
-        <p>if you want to connect me plase connect below.</p>  
-        
-        <div id=footer><a class="SNS" href="https://www.instagram.com/"><img src="./instagram.png" alt="instargram" height="20px"></a>
-            <a class="SNS" href="https://www.facebook.com/"><img src="./facebook.png" alt="instargram" height="20px"></a>
-            <a class="SNS" href="https://twitter.com/"><img src="./twitter.png" alt="instargram" height="20px"></a></div>
-    </body>
+        <p>Enjoy my page. Thank you!</p>
+    </div>
+
+    <!--like-->
+    <div id="likediv" class="none">
+        <h1 class="divh">LIKE</h1>
+        <div class="container">
+            <iframe src="https://www.youtube.com/embed/E6Iu4GUhIFE" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <h3>Music</h3>
+            <p>I like listening to music. Especially in pop music,
+                I like a singer named Alec Benjamin, and 'Gotta Be A Reason' is my favorite song.
+                Besides, I can play the piano and enjoy listening to classical music.
+                Among classical music, I like Chopin most.
+            </p>
+        </div>
+        <div class="container">
+            <video src="./game.mp4" type="video/mp4" controls></video>
+                <h3>Game</h3>
+                <p>I enjoy many genres of games. Among indie games,
+                    I like 'Hollow Knight' most, and these days
+                    I bought Nintendo Switch and playing Pokemon. I am especially
+                    good at rhythm games. The video attached above is a play video of the rhythm game 'Deemo'.
+                </p>
+        </div>
+        <div class="container">
+            <img src="./writing.jpg" alt="like Img3" width="500px">
+            <h3>Writing</h3>
+            <p>I've loved writing since I was a kid. Writing continues today and
+                I'm building my own world in it.
+                I enjoy expressing my feelings and my imagination in writing.
+                The image above is an excerpt of some of my writing.
+            </p>
+        </div>
+    </div>
+
+    <!--dream-->
+    <div id="dreamdiv" class="none">
+        <h1 class="divh">DREAM</h1>
+        <div class="container">
+            <img src="./program.png" alt="like Img1" width="500px">
+            <h3>Programmer</h3>
+            <p>I don't know what kind of programmer I will be,
+                but my goal is to have a job related to computers.
+                I want to help many people with advanced technology.
+            </p>
+        </div>
+        <div class="container">
+            <img src="./introRES.jpg" alt="like Img2" width="500px">
+            <h3>Happy</h3>
+            <p>I think the biggest goal in life is to be happy in the end.
+                I want to experience and feel many things.
+                And I want not only me but also many people to be happy,
+                so I want to help many people.
+            </p>
+        </div>
+    </div>
+
+        <!--footer-->
+        <p id="footerp">If you want to connect me plase connect below.</p>
+        <div id="footer"><a class="SNS" href="https://www.instagram.com/junhyeji11/"><img src="./instagram.png"
+                    alt="instargram" class="SNS"></a>
+        </div>
+</body>
+
 </html>

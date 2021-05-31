@@ -12,6 +12,7 @@ body{
     height: 100%;
 }
 
+/* navbar */
 #navbar{
     position: fixed;
     /* margin-left: 10%; */
@@ -88,8 +89,10 @@ body{
     height: 100px;
 }
 
+
+/*intro*/
 h1{
-    padding-top: 80px;
+    padding-top: 100px
 }
 
 h2{
@@ -103,6 +106,36 @@ span{
 
 p{padding: 40px 100px 10px 100px;}
 
+
+h3{
+    margin-top: 30px;
+}
+
+/*section continer*/
+.container{
+    padding-top:10px;
+    margin-bottom: 300px;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+.container p{
+    padding: 20px 100px 10px 100px;
+}
+
+iframe{
+    width: 560px;
+    height: 315px;
+}
+
+video{
+    width: 500px;
+}
+
+/*footer*/
 #footer{   
     padding: 10px;
     height: auto;
@@ -110,6 +143,226 @@ p{padding: 40px 100px 10px 100px;}
 }
 
 #footer .SNS{
+    width: 30px;
+    height: 30px;
+}
 
-    margin-left: 30px;
+#footerp{
+    margin-top: 30px;
+}
+
+.likediv h1{
+    margin-bottom: 30px;
+}
+
+.dreamdiv h1{
+    margin-bottom: 30px;
+}
+
+.divh{
+    margin-bottom: 30px;
+}
+
+.introdiv{
+    /* border: solid 1px blue; */
+    padding-top: 80px;
+}
+
+
+.likediv{
+    /* border: solid 1px green; */
+    padding-top: 80px;
+}
+
+
+.dreamdiv{
+    /* border: solid 1px red; */
+    padding-top: 80px;
+}
+
+.none{
+    display: none;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+    *{
+        /* line-height: 40px; */
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    body{
+        width: 600px;
+        margin: 0 auto;
+        height: 100%;
+    }
+
+    img{
+        width: 300px;
+    }
+
+
+    
+    /* navbar */
+    #navbar{
+        position: fixed;
+        /* margin-left: 10%; */
+        width: 600px;
+        height: 50px;
+        margin: 0 auto;
+        overflow: hidden;
+        background-color: rgb(255, 255, 255);
+        border-left:solid 1px black;
+        border-right:solid 1px black;
+        border-bottom:solid 1px black;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    #navbar_left{
+        display: none;
+    }
+    
+    #navbar_left div{
+        display: none;
+    }
+    
+    #navbar_left div a{
+        display: none;
+    }
+    
+    #navbar_right{
+        height: 50px;
+        top: 0;
+        /* border: solid 1px black; */
+        width: 500;
+        margin: 0 auto;
+        margin-right: 100px;
+    }
+    
+    .manu{
+        height: 50px;
+        line-height: 45px;
+        width: auto;
+        margin: 0 auto;
+        margin-left: 100px;
+        /* border: solid 1px black; */
+    }
+    
+    .manu a{
+        top: 30%;
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
+        /* margin: 50%; */
+    }
+    
+    .manu a:hover{
+        text-shadow: 2px 2px 2px gray;
+    }
+    
+    .nav{
+        height: 100px;
+    }
+    
+    
+    /*intro*/
+    h1{
+        padding-top: 100px
+    }
+    
+    h2{
+        padding-bottom: 40px
+    }
+    
+    span{
+        font-weight:bold;
+        color:red;
+    }
+    
+    p{padding: 40px 100px 10px 100px;}
+    
+    
+    h3{
+        margin-top: 30px;
+    }
+    
+    /*section continer*/
+    .container{
+        padding-top: 10px;
+        width: 500px;
+        margin: 0 auto;
+        margin-bottom: 80px;
+        border: solid 1px black;
+        border-radius: 10px;
+    }
+    
+    .container p{
+        padding: 20px 100px 10px 100px;
+    }
+    
+    iframe{
+        width: 336px;
+        height: 189px;
+    }
+    
+    video{
+        width: 300px;
+    }
+
+    /*footer*/
+    #footer{   
+        padding: 10px;
+        height: auto;
+        margin-top: 20px;
+    }
+    
+    #footer .SNS{
+        width: 30px;
+        height: 30px;
+    }
+    
+    #footerp{
+        margin-top: 30px;
+    }
+    
+
+    /* section div */
+    .likediv h1{
+        margin-bottom: 30px;
+    }
+    
+    .dreamdiv h1{
+        margin-bottom: 30px;
+    }
+    
+    .divh{
+        margin-bottom: 30px;
+    }
+    
+    .introdiv{
+        /* border: solid 1px blue; */
+        padding-top: 80px;
+    }
+    
+    
+    .likediv{
+        /* border: solid 1px green; */
+        padding-top: 80px;
+    }
+    
+    
+    .dreamdiv{
+        /* border: solid 1px red; */
+        padding-top: 80px;
+    }
+    
+    .none{
+        display: none;
+    }
 }
