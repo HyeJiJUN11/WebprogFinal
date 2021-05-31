@@ -240,6 +240,7 @@ video{
         /* border: solid 1px black; */
         width: 90%;
         margin: 0 auto;
+        margin-right: 5%;
         /* margin-left: 15%; */
     }
     
@@ -284,7 +285,7 @@ video{
         color:red;
     }
     
-    p{padding: 40px 20% 10px 20%;}
+    p{padding: 40px 15% 10px 15%;}
     
     
     h3{
